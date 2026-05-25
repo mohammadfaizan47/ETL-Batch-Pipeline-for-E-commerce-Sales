@@ -1,0 +1,19 @@
+STEP 1). CATALOG & SCHEMA CREATION
+	       • Do create Catalog (works as local database for Databricks)
+			   • Do create 4 Schema's in it (works as folders for this catalog)
+				      - raw/
+				      - bronze/
+				      - silver/
+				      - gold/
+			   • Do create volume files inside the raw, bronze, silver Schema(works as data storing bucket, where actual data is stored)
+				      - raw.laptop_orders_raw
+				      - bronze.laptop_orders_bronze	
+				      - silver.laptop_orders_silver
+			   • Now, manually import data to the raw/laptop_orders_raw/flipkart_laptops.csv
+		
+STEP 2). Bronze Layer
+         • Firstly, we read the data from raw schema as it is.
+			   • Add metadata to this table
+			   • load this data to Bronze Layer as parquet format(didn't use Delta here because it's case sensitive as its not cleaning layer)
+			
+STEP 3). Silver Layer
