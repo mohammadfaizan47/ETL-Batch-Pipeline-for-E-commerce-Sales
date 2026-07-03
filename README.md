@@ -3,7 +3,7 @@ Summary: Efficient ETL pipeline made on Medallion Architecture works for Batch t
 
 Objective : Solving Load balancing, ACID transformation on Delta Tables, Visually better Dashboard, giving business solutions.
 
-Tech Stack : 
+Tech Stack :\
 Ingestion source: Kaggle dataset, \
 Database: Unity Catalog, \
 Transformstions: Databricks Notebooks(Pyspark), \
