@@ -1,4 +1,5 @@
 # ETL-Batch-Pipeline-for-E-commerce-Sales
+
 Summary: \
 An end-to-end batch ETL pipeline built on the Medallion Architecture (Bronze → Silver → Gold), designed to ingest, clean, transform, and aggregate e-commerce sales data at scale using PySpark and Delta Lake on Databricks.
 
