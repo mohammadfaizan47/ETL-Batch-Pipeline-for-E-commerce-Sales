@@ -11,4 +11,4 @@ Ingestion source: Kaggle dataset, \
 Database: Unity Catalog, \
 Transformstions: Databricks Notebooks(Pyspark), \
 DataType: Delta Tables, \
-Dashboard: Databricks Dashboard. \
+Dashboard: Databricks Dashboard. 
