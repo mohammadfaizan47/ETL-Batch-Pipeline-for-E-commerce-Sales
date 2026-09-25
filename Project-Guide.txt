@@ -15,5 +15,3 @@ STEP 2). Bronze Layer
          • Firstly, we read the data from raw schema as it is.
 			   • Add metadata to this table
 			   • load this data to Bronze Layer as parquet format(didn't use Delta here because it's case sensitive as its not cleaning layer)
-			
-STEP 3). Silver Layer
